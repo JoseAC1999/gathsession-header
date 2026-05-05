@@ -130,7 +130,7 @@ a {
 
 .hero__body {
   display: grid;
-  grid-template-columns: 0.92fr 1.08fr;
+  grid-template-columns: 0.98fr 1.02fr;
   align-items: center;
   min-height: calc(100vh - 140px);
   padding: 18px 54px 54px;
@@ -140,24 +140,33 @@ a {
   position: relative;
   z-index: 4;
   max-width: 620px;
-  padding-top: 34px;
+  padding-top: 22px;
 }
 
 .hero__content h1 {
   margin: 0 0 26px;
-  font-family: "Fraunces", serif;
-  font-size: clamp(4rem, 5.15vw, 5.55rem);
-  line-height: 0.94;
-  letter-spacing: -0.06em;
-  text-wrap: balance;
+  font-family: "Playfair Display", serif;
+  max-width: 620px;
+  font-size: clamp(3.75rem, 4.65vw, 4.95rem);
+  line-height: 0.97;
+  letter-spacing: -0.04em;
+}
+
+.hero__content h1 span {
+  display: block;
+}
+
+.hero__title-line--compact {
+  font-size: 0.88em;
+  letter-spacing: -0.03em;
 }
 
 .hero__copy {
-  max-width: 510px;
+  max-width: 500px;
   margin: 0;
   color: var(--text-soft);
-  font-size: 1.18rem;
-  line-height: 1.82;
+  font-size: 1.08rem;
+  line-height: 1.76;
 }
 
 .hero__actions {
@@ -228,7 +237,7 @@ a {
 .features {
   display: flex;
   gap: 28px;
-  margin-top: 108px;
+  margin-top: 96px;
 }
 
 .feature-card {
@@ -285,7 +294,7 @@ a {
 
 .portrait-grid {
   position: absolute;
-  inset: 30px 0 0 28px;
+  inset: 20px 0 0 54px;
 }
 
 .portrait-card {
@@ -306,55 +315,61 @@ a {
 }
 
 .portrait-card--purple {
-  --scale: 1.54;
-  left: 40px;
-  top: 40px;
-  width: 250px;
-  height: 430px;
+  --scale: 1.48;
+  --shift-y: 8px;
+  left: 34px;
+  top: 28px;
+  width: 212px;
+  height: 402px;
   border-radius: 44px 44px 88px 88px;
   background: var(--purple);
 }
 
 .portrait-card--cyan {
-  --scale: 1.92;
+  --scale: 1.5;
   --shift-y: -6px;
-  left: 332px;
-  top: 40px;
-  width: 228px;
-  height: 200px;
+  left: 286px;
+  top: 28px;
+  width: 192px;
+  height: 176px;
   border-radius: 42px;
   background: var(--cyan);
+  z-index: 4;
 }
 
 .portrait-card--yellow {
-  --scale: 1.42;
+  --scale: 1.24;
+  --shift-x: 6px;
   --shift-y: 6px;
-  right: 4px;
-  top: 138px;
-  width: 252px;
-  height: 470px;
+  right: 6px;
+  top: 104px;
+  width: 176px;
+  height: 432px;
   border-radius: 92px;
   background: var(--yellow);
+  z-index: 1;
 }
 
 .portrait-card--magenta {
-  --scale: 1.52;
-  left: 40px;
-  bottom: 40px;
-  width: 250px;
-  height: 230px;
+  --scale: 1.44;
+  --shift-y: 4px;
+  left: 34px;
+  bottom: 54px;
+  width: 212px;
+  height: 206px;
   border-radius: 56px;
   background: var(--magenta);
 }
 
 .portrait-card--orange {
-  --scale: 1.6;
-  left: 332px;
-  top: 288px;
-  width: 228px;
+  --scale: 1.46;
+  left: 286px;
+  top: 226px;
+  width: 190px;
   height: 430px;
   border-radius: 56px 56px 88px 88px;
   background: var(--orange);
+  z-index: 3;
 }
 
 .orbital {
