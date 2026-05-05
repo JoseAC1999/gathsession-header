@@ -263,12 +263,12 @@ a {
   position: absolute;
   left: 50%;
   top: 50%;
-  width: 32px;
-  height: 32px;
+  width: 40px;
+  height: 40px;
   display: block;
   fill: none;
   stroke: currentColor;
-  stroke-width: 1.8;
+  stroke-width: 1.95;
   stroke-linecap: round;
   stroke-linejoin: round;
   transform: translate(calc(-50% + var(--icon-shift-x, 0px)), calc(-50% + var(--icon-shift-y, 0px)));
@@ -276,7 +276,7 @@ a {
 
 .feature-card:nth-child(1) .feature-card__icon {
   --icon-shift-x: 0px;
-  --icon-shift-y: 1px;
+  --icon-shift-y: 2px;
 }
 
 .feature-card:nth-child(2) .feature-card__icon {
@@ -334,8 +334,8 @@ a {
 }
 
 .portrait-card--purple {
-  --scale: 1.48;
-  --shift-y: 8px;
+  --scale: 1.82;
+  --shift-y: 18px;
   left: 34px;
   top: 28px;
   width: 212px;
@@ -345,8 +345,8 @@ a {
 }
 
 .portrait-card--cyan {
-  --scale: 1.5;
-  --shift-y: -6px;
+  --scale: 1.9;
+  --shift-y: 4px;
   left: 286px;
   top: 28px;
   width: 192px;
@@ -357,9 +357,9 @@ a {
 }
 
 .portrait-card--yellow {
-  --scale: 1.54;
-  --shift-x: 10px;
-  --shift-y: -2px;
+  --scale: 1.92;
+  --shift-x: 12px;
+  --shift-y: 14px;
   right: 6px;
   top: 104px;
   width: 176px;
@@ -370,8 +370,8 @@ a {
 }
 
 .portrait-card--magenta {
-  --scale: 1.44;
-  --shift-y: 4px;
+  --scale: 1.76;
+  --shift-y: 12px;
   left: 34px;
   bottom: 54px;
   width: 212px;
@@ -381,8 +381,8 @@ a {
 }
 
 .portrait-card--orange {
-  --scale: 1.84;
-  --shift-y: 12px;
+  --scale: 2.18;
+  --shift-y: 24px;
   left: 286px;
   top: 226px;
   width: 190px;
