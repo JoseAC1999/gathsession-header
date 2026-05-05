@@ -336,10 +336,10 @@ a {
 }
 
 .portrait-card--purple {
-  --height-scale: 1.14;
+  --height-scale: 1.48;
   --scale: 1;
   --shift-x: -4px;
-  --shift-y: -6px;
+  --shift-y: -50px;
   left: 28px;
   top: 28px;
   width: 206px;
@@ -389,10 +389,10 @@ a {
 }
 
 .portrait-card--orange {
-  --height-scale: 1.34;
+  --height-scale: 1.58;
   --scale: 1;
-  --shift-x: -4px;
-  --shift-y: -18px;
+  --shift-x: -2px;
+  --shift-y: -46px;
   left: 248px;
   top: 228px;
   width: 192px;
