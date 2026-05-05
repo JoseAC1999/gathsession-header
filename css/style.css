@@ -251,8 +251,8 @@ a {
   width: 72px;
   height: 72px;
   flex: 0 0 72px;
-  display: inline-grid;
-  place-items: center;
+  position: relative;
+  display: inline-block;
   border-radius: 22px;
   background: rgba(255, 255, 255, 0.07);
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
@@ -260,30 +260,33 @@ a {
 }
 
 .feature-card__icon svg {
-  width: 34px;
-  height: 34px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 32px;
+  height: 32px;
   display: block;
   fill: none;
   stroke: currentColor;
   stroke-width: 1.8;
   stroke-linecap: round;
   stroke-linejoin: round;
-  transform: translate(var(--icon-shift-x, 0), var(--icon-shift-y, 0));
+  transform: translate(calc(-50% + var(--icon-shift-x, 0px)), calc(-50% + var(--icon-shift-y, 0px)));
 }
 
 .feature-card:nth-child(1) .feature-card__icon {
-  --icon-shift-x: 1px;
+  --icon-shift-x: 0px;
   --icon-shift-y: 1px;
 }
 
 .feature-card:nth-child(2) .feature-card__icon {
   --icon-shift-x: 0px;
-  --icon-shift-y: -1px;
+  --icon-shift-y: 0px;
 }
 
 .feature-card:nth-child(3) .feature-card__icon {
-  --icon-shift-x: 1px;
-  --icon-shift-y: -1px;
+  --icon-shift-x: 0px;
+  --icon-shift-y: 0px;
 }
 
 .feature-card strong,
@@ -354,9 +357,9 @@ a {
 }
 
 .portrait-card--yellow {
-  --scale: 1.38;
-  --shift-x: 8px;
-  --shift-y: 2px;
+  --scale: 1.54;
+  --shift-x: 10px;
+  --shift-y: -2px;
   right: 6px;
   top: 104px;
   width: 176px;
@@ -378,8 +381,8 @@ a {
 }
 
 .portrait-card--orange {
-  --scale: 1.62;
-  --shift-y: 6px;
+  --scale: 1.84;
+  --shift-y: 12px;
   left: 286px;
   top: 226px;
   width: 190px;
