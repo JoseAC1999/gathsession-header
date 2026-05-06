@@ -355,8 +355,8 @@ a {
 }
 .portrait-card--cyan img {
   object-position: center top;
-  transform: scale(3.8);
-  transform-origin: center top;
+  transform: scale(3.2);
+  transform-origin: center 22%;
 }
 
 .portrait-card--yellow {
@@ -378,7 +378,11 @@ a {
   border-radius: 56px;
   background: var(--magenta);
 }
-.portrait-card--magenta img { object-position: center 8%; }
+.portrait-card--magenta img {
+  object-position: center top;
+  transform: scale(2.8);
+  transform-origin: center 28%;
+}
 
 .portrait-card--orange {
   left: 248px;
