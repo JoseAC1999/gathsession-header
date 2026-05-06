@@ -373,8 +373,8 @@ a {
   border-radius: 56px;
   background-color: var(--magenta);
   background-image: url('../assets/images/portrait-woman-red.png');
-  background-size: auto 500%;
-  background-position: center 32%;
+  background-size: 400%;
+  background-position: center 48%;
 }
 
 .portrait-card--orange {
