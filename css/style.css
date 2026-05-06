@@ -372,9 +372,17 @@ a {
   height: 204px;
   border-radius: 56px;
   background-color: var(--magenta);
-  background-image: url('../assets/images/portrait-woman-red.png');
-  background-size: 400%;
-  background-position: center 48%;
+}
+
+.portrait-card--magenta img {
+  display: block;
+  position: absolute;
+  width: auto;
+  height: 600px;
+  max-width: none;
+  top: -175px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .portrait-card--orange {
