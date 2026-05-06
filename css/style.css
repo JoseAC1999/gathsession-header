@@ -338,7 +338,11 @@ a {
   border-radius: 44px 44px 88px 88px;
   background: var(--purple);
 }
-.portrait-card--purple img { object-position: center 12%; }
+.portrait-card--purple img {
+  object-position: center top;
+  transform: scale(2.4);
+  transform-origin: center top;
+}
 
 .portrait-card--cyan {
   left: 248px;
@@ -349,7 +353,11 @@ a {
   background: var(--cyan);
   z-index: 4;
 }
-.portrait-card--cyan img { object-position: center 18%; }
+.portrait-card--cyan img {
+  object-position: center top;
+  transform: scale(3.8);
+  transform-origin: center top;
+}
 
 .portrait-card--yellow {
   right: -4px;
