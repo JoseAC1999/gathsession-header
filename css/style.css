@@ -348,7 +348,7 @@ a {
   background-color: var(--cyan);
   background-image: url('../assets/images/portrait-woman-pink.png');
   background-size: auto 420%;
-  background-position: center 5%;
+  background-position: center 12%;
   z-index: 4;
 }
 
@@ -373,8 +373,8 @@ a {
   border-radius: 56px;
   background-color: var(--magenta);
   background-image: url('../assets/images/portrait-woman-red.png');
-  background-size: auto 300%;
-  background-position: center 10%;
+  background-size: auto 500%;
+  background-position: center 32%;
 }
 
 .portrait-card--orange {
